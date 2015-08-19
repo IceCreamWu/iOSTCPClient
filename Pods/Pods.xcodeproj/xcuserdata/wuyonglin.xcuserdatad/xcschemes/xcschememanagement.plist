@@ -4,20 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>iOSTCPClient.xcscheme</key>
+		<key>Pods-CocoaAsyncSocket.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>A07A70251B845BDD00CE9844</key>
+		<key>16AB39FE3A5DC977D874F86B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A07A703E1B845BDD00CE9844</key>
+		<key>9661299B870F7EAA70B176E7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

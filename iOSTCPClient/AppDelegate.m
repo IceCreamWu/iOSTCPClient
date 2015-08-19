@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "TCPManager.h"
+#import "TCPTestViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    UIViewController *viewController = [[TCPTestViewController alloc] init];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = navigationController;
+    [self.window makeKeyAndVisible];
+    
+    [TCPManager sharedInstance];
     return YES;
 }
 
