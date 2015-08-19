@@ -1,0 +1,2 @@
+# iOSTCPClient
+iOS基于CocoaAsyncSocket封装起来的四字节包头TCP通信。
